@@ -1,3 +1,21 @@
+let x = 3; 
+let y = 10;
+let z = 5;
+let name = 'Marc'
+let greeting ='HEY'
+
+function multiply (someParameter){x= x * someParameter}
+
+function modYby (someParameter) {y= y/someParameter;
+  y= y % y}
+
+function opposite (someParameter) {z = someParameter * -1}
+
+function makeFullName (aString) {name= name + '' + aString}
+
+function yellAt (someString) {greeting = greeting + ','+'' someString +'!' }
+
+
 
 
 /*********************************************************************************************************************
